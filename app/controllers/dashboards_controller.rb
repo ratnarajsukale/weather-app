@@ -9,14 +9,13 @@ class DashboardsController < ApplicationController
 
       weather_data = WeatherService.new(params[:city]).call
 
-      if weather_data['cod'].to_i == 200
+      if weather_data["cod"].to_i == 200
         @weather_data = weather_data
       else
-        @error = weather_data['message']
+        @error = weather_data["message"]
       end
     end
 
     render :show
   end
-
 end
