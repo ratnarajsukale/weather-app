@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  get 'dashboards/show'
-  
+ 
   get "sign_up", to: "registrations#new"
   post "sign_up", to: "registrations#create"
 
@@ -12,4 +11,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
    root "dashboards#show"
+
+   get '/dashboards', to: 'dashboards#show'
+   post '/dashboards', to: 'dashboards#update'
+
 end
