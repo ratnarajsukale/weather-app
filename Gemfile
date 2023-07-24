@@ -75,3 +75,5 @@ group :test do
 end
 
 gem 'net-http'
+gem 'rspec-rails', '~> 6.0.0'
+gem 'rails-controller-testing'
