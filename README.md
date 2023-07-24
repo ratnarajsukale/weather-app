@@ -1,24 +1,17 @@
-# README
+# Requirements
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ - Ruby - 3.0.3
+ - Rails - 7.0.6
+ - pg - 1.1
 
-Things you may want to cover:
+# **Installation**
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ - Install Ruby  3.0.3 (you can use tools like rbenv or rvm)
+ - Install Rails 7.0.6
+ - Clone this repository to your local machine
+ - Go to the weather-app directory
+ - Run 'bundle install'
+ - Run 'Yarn'
+ - Run 'rails db:setup'
+ - Run 'bin/dev' to start the server.
+ - run 'rspec' in the shell for running the tests.
